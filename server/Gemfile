@@ -1,0 +1,22 @@
+source 'https://rubygems.org'
+
+#ruby=2.1.1
+#ruby-gemset=niball
+
+# Server requirements
+gem 'thin'
+
+# Project requirements
+gem 'rake'
+
+# Websockets
+# gem 'faye-websocket'
+
+# Event machine
+# gem "eventmachine"
+
+# More websockets
+gem 'em-websocket'
+
+# Protocol bufffers
+gem 'beefcake'
