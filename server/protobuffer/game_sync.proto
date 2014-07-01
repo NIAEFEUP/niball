@@ -1,0 +1,10 @@
+import 'ball.proto';
+import 'player.proto';
+
+message GameSync {
+  required          Ball          ball            = 1;
+  repeated          Player        players         = 2;
+  required          uint32        team_1_score    = 3;
+  required          uint32        team_2_score    = 4;
+  required          uint32        time            = 5;
+}

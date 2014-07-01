@@ -1,0 +1,14 @@
+import 'pair.proto';
+
+message Ball {
+  required  Pair        position      = 1;
+  required  Pair        velocity      = 2;
+  required  Pair        acceleration  = 3;
+  required  BallState   ball_state    = 4;
+
+  enum BallState {
+    IN_GAME       = 1;
+    TEAM_1_KICK   = 2;
+    TEAM_2_KICK   = 3;
+  }
+}

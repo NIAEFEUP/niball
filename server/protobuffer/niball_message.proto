@@ -1,0 +1,17 @@
+// Import all external proto buffers.
+import 'game_sync.proto';
+
+message NiballMessage {
+
+  // Defines the message type.
+  required          MType       m_type        = 1;
+
+  // Optional messages. Assume that all messages are mutually exclusive.
+  optional          GameSync   game_sync      = 2;
+
+  enum MType {
+    GAME_SYNC       = 1;
+    ROOM_REQ        = 2;
+    ROOM_RESP       = 3;
+  }
+}

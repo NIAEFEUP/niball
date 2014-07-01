@@ -21,3 +21,21 @@ _testmain.go
 
 *.exe
 *.test
+.DS_Store
+Gemfile.lock
+log/**/*
+tmp/**/*
+nohup.out
+*.out
+webapp/tmp/*
+webapp/log/*
+webapp/.sass-cache
+starter.local.sh
+bin/*
+worker_server/temp/*
+worker_server/temp_work/*
+vendor/gems/*
+!vendor/gems/cache/
+.sass-cache/*
+db/*.db
+.*.sw*

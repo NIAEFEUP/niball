@@ -1,0 +1,8 @@
+import 'pair.proto';
+
+message Player {
+  required  string      id            = 1;
+  required  Pair        position      = 2;
+  required  Pair        velocity      = 3;
+  required  Pair        acceleration  = 4;
+}
