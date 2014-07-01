@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 #ruby=2.1.1
 #ruby-gemset=niball
 
+# Pry
+gem 'pry'
+
 # Server requirements
 gem 'thin'
 
@@ -10,12 +13,6 @@ gem 'thin'
 gem 'rake'
 
 # Websockets
-# gem 'faye-websocket'
-
-# Event machine
-# gem "eventmachine"
-
-# More websockets
 gem 'em-websocket'
 
 # Protocol bufffers
